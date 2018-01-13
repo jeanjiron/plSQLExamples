@@ -59,5 +59,13 @@ BEGIN
     END LOOP;
 
 
+    EXCEPTION
+    
+    WHEN others THEN
+    
+        dbms_output.put_line('Algo salio mal');
+    
+    ;
+
 END;
 /
